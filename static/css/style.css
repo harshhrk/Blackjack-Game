@@ -83,3 +83,11 @@ td {
     padding: 5px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 500px) {
+    .flex-box-blackjack-row-1 img {
+        width: 50%;
+        padding: 10px;
+    }
+}
