@@ -97,4 +97,9 @@ td {
         text-align: center;
         flex: 1;
     }
+    
+    .flex-box-blackjack-row-2 div {
+        border: 1px solid black;
+        height: 60px;
+    }
 }
