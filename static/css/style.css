@@ -90,10 +90,11 @@ td {
         width: 50%;
         padding: 10px;
     }
-    .container-5 {
-        margin: 40px auto;
-        width: 75%;
-        height: 75%;
+    .flex-box-blackjack-row-1 div {
+        border: 1px solid black;
+        padding: 10px;
+        height: 250px;
         text-align: center;
+        flex: 1;
     }
 }
