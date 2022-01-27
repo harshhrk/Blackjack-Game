@@ -102,4 +102,8 @@ td {
         border: 1px solid black;
         height: 60px;
     }
+    
+    .flex-box-blackjack-row-2 {
+        flex-wrap: nowrap;
+    }
 }
