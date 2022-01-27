@@ -114,7 +114,7 @@ function blackjackDeal() {
 function showCard(activePlayer, card) {
     if (activePlayer["score"] <= 21) {
         let cardImage = document.createElement("img");
-        cardImage.src = "static/images/" + card + ".webp";
+        cardImage.src = "../static/images/" + card + ".webp";
         document.querySelector(activePlayer["div"]).appendChild(cardImage);
         hitSound.play();
     }
