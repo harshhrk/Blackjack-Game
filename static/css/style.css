@@ -1,0 +1,85 @@
+body {
+    background-color: #A3DA8D;
+}
+
+.title {
+    color: #146356;
+    background-color: #FFF1BD;
+    border-radius: 15px;
+}
+
+.container-5 {
+    margin: 40px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.flex-box-blackjack-row-1,
+.flex-box-blackjack-row-2,
+.flex-box-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-blackjack-row-3 {
+    border: none;
+}
+
+.flex-box-blackjack-row-1,
+.flex-box-blackjack-row-2 {
+    background-image: url(../images/back-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+.flex-box-blackjack-row-1 {
+    border-radius: 15px 15px 0 0;
+}
+
+.flex-box-blackjack-row-2 {
+    border-radius: 0 0 15px 15px;
+}
+
+.your-box {
+    border-radius: 15px 0 0 15px;
+}
+
+.dealer-box {
+    border-radius: 0 15px 15px 0;
+}
+
+.flex-box-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-box-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-box-blackjack-row-2 button {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.flex-box-blackjack-row-2 div {
+    border: 1px solid black;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
